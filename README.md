@@ -26,14 +26,14 @@ git clone https://github.com/AngryMaciek/small-dotfiles.git
 
 Use `stow` to create proper symlinks:
 ```bash
-...
+stow -vSt ~ git pylint
 ```
 
 ---
 Missing:
 * tmux
 * terminator
-* vscode?
+* vscode? (https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/)
 * iterm2
 * guake
 * htop
