@@ -31,6 +31,10 @@ Use `stow` to create proper symlinks:
 stow -vSt ~ git pylint
 ```
 
+## License
+
+Unlicense
+
 ---
 Missing:
 * tmux
