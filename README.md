@@ -24,6 +24,8 @@ git clone https://github.com/AngryMaciek/small-dotfiles.git
 
 ## Stow the dotfiles
 
+**Remember to backup all your current config files before the linking**  
+
 Use `stow` to create proper symlinks:
 ```bash
 stow -vSt ~ git pylint
