@@ -19,7 +19,7 @@ sudo apt-get install git stow --yes
 
 Use `git` command to clone this repository into your local machine:
 ```bash
-git clone https://github.com/AngryMaciek/small-dotfiles.git
+cd $HOME && git clone https://github.com/AngryMaciek/small-dotfiles.git
 ```
 
 ## Stow the dotfiles
@@ -28,7 +28,7 @@ git clone https://github.com/AngryMaciek/small-dotfiles.git
 
 Use `stow` to create proper symlinks:
 ```bash
-stow -vSt ~ git pylint
+cd $HOME && stow -vSt ~ git pylint
 ```
 
 ## License
