@@ -30,7 +30,7 @@ Use `stow` to create proper symlinks:
 ```bash
 stow -vSt ~ small-dotfiles/dotfiles/git
 stow -vSt ~ small-dotfiles/dotfiles/pylint
-stow -vSt ~/.config/htop small-dotfiles/dotfiles/htop
+stow -vSt ~ small-dotfiles/dotfiles/htop
 ```
 
 ## License
