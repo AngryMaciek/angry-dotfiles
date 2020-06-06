@@ -39,6 +39,5 @@ Unlicense
 Missing:
 * tmux
 * terminator
-* vscode? (https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/)
 * guake
 * htop
