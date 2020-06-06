@@ -39,5 +39,4 @@ Unlicense
 Missing:
 * tmux
 * terminator
-* guake
 * htop
