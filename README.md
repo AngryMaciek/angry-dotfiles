@@ -40,5 +40,4 @@ Unlicense
 ---
 Missing:
 * tmux
-* terminator
 * guake
