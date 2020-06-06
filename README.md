@@ -36,8 +36,3 @@ stow -vSt ~/.config/htop small-dotfiles/dotfiles/htop
 ## License
 
 Unlicense
-
----
-Missing:
-* tmux
-* guake
