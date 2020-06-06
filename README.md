@@ -40,3 +40,4 @@ Missing:
 * tmux
 * terminator
 * htop
+* guake
