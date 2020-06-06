@@ -28,6 +28,7 @@ cd $HOME && git clone https://github.com/AngryMaciek/small-dotfiles.git
 
 Use `stow` to create proper symlinks:
 ```bash
+rm -f .gitconfig .pylintrc .config/htop/htoprc
 cd small-dotfiles/dotfiles
 stow -vSt ~ git pylint htop
 cd ~
