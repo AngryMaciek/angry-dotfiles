@@ -40,6 +40,5 @@ Missing:
 * tmux
 * terminator
 * vscode? (https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/)
-* iterm2
 * guake
 * htop
