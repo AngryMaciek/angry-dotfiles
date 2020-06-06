@@ -28,7 +28,8 @@ cd $HOME && git clone https://github.com/AngryMaciek/small-dotfiles.git
 
 Use `stow` to create proper symlinks:
 ```bash
-cd small-dotfiles/dotfiles && stow -vSt ~ * && cd ~
+stow -vSt ~ small-dotfiles/dotfiles/git
+stow -vSt ~ small-dotfiles/dotfiles/pylint
 ```
 
 ## License
