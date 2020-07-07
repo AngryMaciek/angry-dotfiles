@@ -1,4 +1,4 @@
-# .FILES
+# ANGRY .FILES
 *Maciek Bak*  
 
 My personal configuration schemes for various software.  
@@ -19,7 +19,7 @@ sudo apt-get install git stow --yes
 
 Use `git` command to clone this repository into your local machine:
 ```bash
-cd $HOME && git clone https://github.com/AngryMaciek/small-dotfiles.git
+cd $HOME && git clone https://github.com/AngryMaciek/angry-dotfiles.git
 ```
 
 ## Stow the dotfiles
@@ -29,7 +29,7 @@ cd $HOME && git clone https://github.com/AngryMaciek/small-dotfiles.git
 Use `stow` to create proper symlinks:
 ```bash
 rm -f .gitconfig .pylintrc .config/htop/htoprc
-cd small-dotfiles/dotfiles
+cd angry-dotfiles/dotfiles
 stow -vSt ~ git pylint htop
 cd ~
 ```
